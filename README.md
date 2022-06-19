@@ -12,3 +12,5 @@ http://frontendmentor.io
 - SASS
 
 ## Imagen del proyecto:
+
+![fgf](https://user-images.githubusercontent.com/70084380/174503681-28ab21dd-aace-440f-b62f-360774a79f7f.jpg)
