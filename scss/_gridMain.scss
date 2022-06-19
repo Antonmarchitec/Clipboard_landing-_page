@@ -1,0 +1,76 @@
+@import "colorFont";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;      //400   600
+    font-size: 18px;
+}
+
+
+html, body{
+    scroll-behavior: smooth;
+    background: rgb(226, 222, 222);
+}
+
+.grid-container{
+    width:100%;
+    max-width: 1440px;
+    //padding: 30px 0px;
+    //background: brown;
+    margin: auto;
+    display: grid;
+    //grid-gap: 1em;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "grid-header      grid-header"
+                         "grid-section1    grid-section1"
+                         "grid-section2    grid-section2"
+                         "grid-section3    grid-section3"
+                         "grid-section4    grid-section4"
+                         "grid-section5    grid-section5"
+                         "grid-footer      grid-footer";
+
+                         .grid-header{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-header;
+                         }
+                         .grid-section1{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-section1;
+                         }
+                         .grid-section2{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-section2;
+                         }
+                         .grid-section3{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-section3;
+                         }
+                         .grid-section4{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-section4;
+                         }
+                         .grid-section5{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-section5;
+                         }
+                         .grid-footer{
+                            //padding: 10px 0px;
+                            background: rgb(201, 92, 92);
+                            grid-area: grid-footer;
+                         }
+                         
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    
+}

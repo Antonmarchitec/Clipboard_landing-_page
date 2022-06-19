@@ -1,0 +1,107 @@
+@import "colorFont";
+
+.containerSection3{
+    width: 100%;
+    padding: 20px 0px;
+    background: white;
+    .containerSection3_title{
+        color: $color_morado;
+        font-size: $font_titleB;
+        text-align: center;
+    }
+
+    .containerSection3_parrafo{
+        margin-top: 20px;
+        text-align: center;
+        color: $color_celeste;
+    }
+
+    .containerSection3_baseBox{
+        margin-top: 40px;
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .containerSection3_baseBox_box{
+            width: 400px;
+            padding: 20px;
+            .containerSection3_baseBox_box_image{   
+                width: 35px;
+                height: 30px;
+                margin: auto;
+            }
+
+            .containerSection3_baseBox_box_title{
+                margin-top: 20px;
+                text-align: center;
+                color: $color_morado;
+                font-size: $font_titleC;
+            }
+
+            .containerSection3_baseBox_box_parrafo{
+                margin-top: 20px;
+                color: $color_celeste;
+                text-align: center;
+            }
+
+        }
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+.containerSection3{
+    width: 100%;
+    padding: 20px 0px;  
+    background: white;
+    .containerSection3_title{
+        color: $color_morado;
+        font-size: $font_titleB;
+        text-align: center;
+    }
+
+    .containerSection3_parrafo{
+        width: 90%;
+        margin: 20px auto; 
+        text-align: center;
+        color: $color_celeste;
+    }
+
+    .containerSection3_baseBox{
+        margin-top: 40px;
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        .containerSection3_baseBox_box{
+            width: 400px;
+            padding: 20px;
+            .containerSection3_baseBox_box_image{   
+                width: 45px;
+                height: 38px;
+                margin: auto;
+            }
+
+            .containerSection3_baseBox_box_title{
+                margin-top: 20px;
+                text-align: center;
+                color: $color_morado;
+                font-size: $font_titleC;
+            }
+
+            .containerSection3_baseBox_box_parrafo{
+                margin-top: 20px;
+                color: $color_celeste;
+                text-align: center;
+            }
+
+        }
+    }
+}  
+}

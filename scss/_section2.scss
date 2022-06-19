@@ -1,0 +1,63 @@
+@import "colorFont";
+
+
+.containerSection2{
+    width: 100%;
+    padding:40px 0px;
+    background:white;
+    .containerSection2_title{
+        text-align: center;
+        color: $color_morado;
+        font-size: $font_titleB;
+
+    }
+
+    .containerSection2_parrafo{
+        width: 520px;
+        margin: 20px auto;
+        color: $color_celeste;
+        text-align: center;
+
+    }
+
+    .containerSection2_image{
+        width: 650px;
+        height: 400px;
+        margin: 50px auto;
+
+    }
+}
+
+
+
+
+@media (min-width:320px) and (max-width:423px){
+
+    .containerSection2{
+        width: 100%;
+        padding:40px 0px;
+        background:white;
+        .containerSection2_title{
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            color: $color_morado;
+            font-size: $font_titleB;
+        }
+    
+        .containerSection2_parrafo{
+            width: 90%;
+            margin: 20px auto;
+            color: $color_celeste;
+            text-align: center;
+            
+        }
+    
+        .containerSection2_image{
+            width: 80%;
+            height: 230px;
+            margin: 50px auto;
+            
+        }
+    }
+}

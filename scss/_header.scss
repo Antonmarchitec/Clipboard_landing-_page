@@ -1,0 +1,149 @@
+@import "colorFont";
+
+.containerHeader{
+    width: 100%;
+    //padding: 10px 0px;
+    padding-bottom: 10px;
+    background: white;
+    .containerHeader_base{
+        width:100%;
+        padding: 80px 0px;
+        background-image: url(../images/bg-header-desktop.png);
+        background-size: 100% 100%;
+        .containerHeader_base_logo{
+            width:100px;
+            height: 100px;
+            padding: 5px;
+            margin: auto;
+        }
+    }
+
+    .containerHeader_title{
+        text-align: center;
+        color: $color_morado;
+        font-size: $font_titleA;
+        font-weight: 600;
+    }
+
+    .containerHeader_parrafo{
+        width: 520px;
+        margin: 20px auto;
+        color: $color_celeste;
+        text-align: center;
+    }
+
+    .containerHeader_buttons{
+        width: 400px;
+        padding: 5px 0px;
+        margin:20px auto;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-items: center;
+        .containerHeader_buttonsA{
+            width: 180px;
+            padding: 8px 0px;
+            border: none;   
+            border-radius: 30px;
+            background: $color_verdeLimon;
+            color: white;
+            font-weight: 400;
+            transition: 0.5s all;
+        }
+        .containerHeader_buttonsA:hover{
+            background: $color_verdeLimon_claro;
+            cursor: pointer;
+        }
+        .containerHeader_buttonsB{
+            width: 180px;
+            padding: 8px 0px;
+            border: none;
+            border-radius: 30px;
+            background:$color_azulPastel;
+            color: white;
+            font-weight: 400;
+            transition: 0.5s all;
+        }
+        .containerHeader_buttonsB:hover{
+            background: $color_azulPastel_claro;
+            cursor: pointer;
+        }
+    }
+    
+}
+
+
+
+@media (min-width:320px) and (max-width:423px){
+    .containerHeader{
+        width: 100%;
+        //padding: 10px 0px;
+        padding-bottom: 10px;
+        background: white;
+        .containerHeader_base{
+            width:100%;
+            padding: 80px 0px;
+            background-image: url(../images/bg-header-mobile.png);
+            background-size: 100% 100%;
+            .containerHeader_base_logo{
+                width:100px;
+                height: 100px;
+                padding: 5px;
+                margin: auto;
+            }
+        }
+    
+        .containerHeader_title{
+            text-align: center;
+            color: $color_morado;
+            font-size: $font_titleA;
+            font-weight: 600;
+        }
+    
+        .containerHeader_parrafo{
+            width: 100%;
+            margin: 20px auto;
+            color: $color_celeste;
+            text-align: center;
+        }
+    
+        .containerHeader_buttons{
+            width: 100%;
+            padding: 5px 0px;
+            margin:20px auto;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content:space-around;
+            align-items: center;
+            .containerHeader_buttonsA{
+                width: 90%;
+                margin: 5px 0px;
+                padding: 10px 0px;
+                border: none;   
+                border-radius: 30px;
+                background: $color_verdeLimon;
+                color: white;
+                font-weight: 400;
+                transition: 0.5s all;
+            }
+            .containerHeader_buttonsB{
+                width: 90%;
+                margin: 5px 0px;
+                padding: 10px 0px;
+                border: none;
+                border-radius: 30px;
+                background:$color_azulPastel;
+                color: white;
+                font-weight: 400;
+                transition: 0.5s all;
+            }
+            .containerHeader_buttonsB:hover{
+                background: $color_azulPastel_claro;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}

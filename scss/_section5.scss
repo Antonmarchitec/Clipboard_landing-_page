@@ -1,0 +1,111 @@
+@import "colorFont";
+
+.containerSection5{
+    width: 100%;
+    padding: 50px 0px;
+    background: white;
+    .containerSection5_title{
+        color: $color_morado;
+        font-size: $font_titleB;
+        text-align: center;  
+    }
+
+    .containerSection5_parrafo{
+        margin: 20px auto;
+        text-align: center;
+        width: 520px;
+        color: $color_celeste;
+    }
+
+    .containerSection5_buttons{
+        margin: 40px auto;
+        width: 440px;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .containerSection5_buttons_btnA{
+            width: 200px;
+            padding: 8px 0px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            background: $color_verdeLimon;
+            transition: 0.5s all;
+        }
+        .containerSection5_buttons_btnA:hover{
+            background: $color_verdeLimon_claro;
+            cursor: pointer;
+        }
+        .containerSection5_buttons_btnB{
+            width: 200px;
+            padding: 8px 0px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            background: $color_azulPastel;
+            transition: 0.5s all;
+        }
+        .containerSection5_buttons_btnB:hover{
+            background: $color_azulPastel_claro;
+            cursor: pointer;
+        }
+    }
+}
+
+
+@media (min-width:320px) and (max-width:423px){
+    
+.containerSection5{
+    width: 100%;
+    padding: 50px 0px;
+    background: white;
+    .containerSection5_title{
+        width: 100%;
+        margin: initial;
+        color: $color_morado;
+        font-size: $font_titleB;
+        text-align: center;
+    }
+
+    .containerSection5_parrafo{
+        margin: 20px auto;
+        text-align: center;
+        width: 90%;
+        color: $color_celeste;
+    }
+
+    .containerSection5_buttons{
+        margin: 40px auto;
+        width: 100%;
+        padding: 10px 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .containerSection5_buttons_btnA{
+            width: 90%;
+            margin: 5px auto;
+            padding: 8px 0px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            background: $color_verdeLimon;
+            transition: 0.5s all;
+        }
+        .containerSection5_buttons_btnB{
+            width: 90%;
+            margin: 5px auto;
+            padding: 10px 0px;
+            border: none;
+            border-radius: 30px;
+            color: white;
+            background: $color_azulPastel;
+            transition: 0.5s all;
+        }
+    }
+}
+}
